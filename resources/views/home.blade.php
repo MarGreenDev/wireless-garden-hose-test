@@ -17,9 +17,11 @@
             {{$price}}
         </p>
 
-        <button class="bg-blue-500 text-white px-4 py-2 mt-4 rounded cursor-pointer">
-            Pre-order now
-        </button>
+        <a href="/order">
+            <button class="bg-blue-500 text-white px-4 py-2 mt-4 rounded cursor-pointer">
+                Order
+            </button>
+        </a>
     </div>
 
 </body>
