@@ -14,29 +14,30 @@
         <h1 class="text-5xl font-mono tracking-widest text-center">{{$name}} B)</h1>
         <nav>
             <ul class="flex gap-5 justify-center">
-                <li>Contact</li>
-                <li>FAQ</li>
-                <li>Cool</li>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>FAQ</li></a>
+                <a href="/cool"><li>Cool</li></a>
             </ul>
         </nav>
     </header>
 
     <main class="p-6">
 
-        <section class="p-4 flex flex-col items-center border w-fit justify-self-center hover:shadow-xl transition-transform duration-200 hover:scale-105 hover:translate-y-1">
+        <section class="p-4 flex flex-col items-center border-3 border-green-500 border-dotted w-fit justify-self-center hover:shadow-xl">
             <h2 class="text-xl text-center">Version 1.0</h2>
             <img class="size-100" src="https://placehold.co/400" alt="placeholder">
             <p>Yes very cool</p>
             <a href="/order">
-                <button class="bg-green-400 cursor-pointer text-white p-3">Pre-order</button>
+                <button class="bg-green-400 cursor-pointer text-white p-3 hover-shadow-ss">Pre-order</button>
             </a>
         </section>
 
-        <section>
+        <section class="mx-6">
             <h2 class="text-xl font-mono">Features</h2>
             <ul class="list-disc">
                 <li>bluetooth v67</li>
                 <li>unlimited range</li>
+                <li>bully your neighbors</li>
             </ul>
         </section>
 

@@ -15,3 +15,7 @@ Route::get('order' , function () {
     'thanks' => 'THANK YOU'
     ]);
 });
+
+Route::get('cool' , function () {
+    return view('cool');
+});
